@@ -1,6 +1,7 @@
 <script>
 	import Header from "./Header.svelte";
 	import "./styles.css";
+	import { base } from "$app/paths";
 </script>
 
 <div class="app">
@@ -11,9 +12,9 @@
 	</main>
 
 	<footer>
-		<a href="/">home</a>
-		<a href="/about">about</a>
-		<a href="/about-other">about-other</a>
+		<a href="{base}/">home</a>
+		<a href="{base}/about">about</a>
+		<a href="{base}/about-other">about-other</a>
 
 		<p>
 			visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit
