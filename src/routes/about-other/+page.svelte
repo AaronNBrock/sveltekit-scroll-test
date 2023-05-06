@@ -4,12 +4,12 @@
 </svelte:head>
 
 <div class="text-column">
-	<h1>About this app</h1>
+	<h1>The Other About</h1>
 </div>
 
 <style>
 	h1 {
-		color: blue;
+		color: red;
 		width: 100%;
 		line-height: 100vh;
 	}
